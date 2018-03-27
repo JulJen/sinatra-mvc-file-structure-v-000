@@ -7,11 +7,11 @@ class Dog
     @name = name
     @breed = breed
     @age = age
-    @@all < self 
-  end 
+    @@all < self
+  end
 
-  def self.all 
-    @@all
+  def self.all
+    self
   end 
 
   def
